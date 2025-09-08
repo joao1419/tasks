@@ -8,7 +8,7 @@ from ttkbootstrap.constants import *
 ARQUIVO = "tasks.json"
 tasks = []
 
-# ---------------- FUNÇÕES ----------------
+# funções
 def carregar_tasks():
     global tasks
     if os.path.exists(ARQUIVO):
